@@ -1,3 +1,5 @@
+//write a programm to fing odd and even numbber.
+
 #include<stdio.h>
 #include<conio.h>
 
