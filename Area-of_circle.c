@@ -1,3 +1,5 @@
+//write a programm to find area of circle
+
 #include<stdio.h>
 #include<conio.h>
 
