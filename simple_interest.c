@@ -1,3 +1,5 @@
+//Write a program to find the simple Interest.
+
 #include<stdio.h>
 #include<conio.h>
 
