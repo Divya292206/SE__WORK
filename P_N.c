@@ -1,3 +1,5 @@
+// write a programm to find positive and nagative number
+
 #include<stdio.h>
 #include<conio.h>
 
@@ -10,11 +12,11 @@ void main()
     
     if(num>0)
     {
-       printf("positive"); 
+       printf("positive number"); 
     }
     else
     {
-        printf("nagative");
+        printf("nagative number");
     }
     
     getch();
