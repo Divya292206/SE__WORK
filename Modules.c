@@ -1,3 +1,5 @@
+//write a programm to find modules
+
 #include<stdio.h>
 #include<conio.h>
 
