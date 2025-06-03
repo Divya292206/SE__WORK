@@ -1,4 +1,4 @@
-//Write a program to make addition, Subtraction, Multiplication and Division of Two Numbers.[User Input]
+//Write a program to calculate sum of 5 subjects & find the percentage. Subject marks entered by user.
 
 
 #include<stdio.h>
