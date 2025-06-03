@@ -1,3 +1,6 @@
+//Write a program to make a square and cube of number.
+
+
 #include<stdio.h>
 #include<conio.h>
 
