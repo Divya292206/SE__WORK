@@ -9,7 +9,7 @@ void main()
     
     for(i = 0; i < 5; i++)
     {
-        printf("Enter number %d: ", i + 1);
+        printf("Enter number %d:", i + 1);
         scanf("%d",&num[i]);
     }
 
