@@ -1,0 +1,27 @@
+(1)  Research and provide three real-world applications where C programming is extensively used, such as in embedded systems, operating systems, or game development.
+
+(1) Embedded Systems
+
+:-  Why C is Used : Fast, small, hardware control
+:-  Example : TV, Watch, Car, Fridge
+
+
+(2) Operating System
+
+:-  Why C is Used :  Powerful, controls hardware
+:-  Example : Windows, Linux, Android
+
+
+(3) Game Making	
+
+:-  Why C is Used : Speed, smooth performance
+:-  Example : Mobile & PC Games	
+
+
+
+
+
+
+
+
+		
