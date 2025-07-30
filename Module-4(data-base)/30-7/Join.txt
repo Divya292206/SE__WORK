@@ -1,0 +1,39 @@
+Join
+
+1. inner join:
+SELECT * FROM student JOIN teacher ON student.id = teacher.id
+
+2.left join
+SELECT * FROM student  LEFT JOIN teacher ON student.id = teacher.id
+
+3.right join
+SELECT * FROM student  RIGHT JOIN teacher ON student.id = teacher.id
+
+4.FULL join
+SELECT * FROM student  LEFT JOIN teacher ON student.id = teacher.id
+UNION
+SELECT * FROM student  RIGHT JOIN teacher ON student.id = teacher.id
+
+SCALAR FUNCTION
+
+1.UCASE
+SELECT UCASE(S_name) FROM student
+
+2.LCASE
+SELECT lCASE(S_name) FROM student
+
+3.MID
+SELECT MID(S_name,1,3) FROM student;
+
+4.LENGTH
+SELECT LENGTH(S_name) FROM student;
+
+
+5.ROUND
+SELECT ROUND(mark) FROM student;
+
+6.NOW
+SELECT S_name NOW() AS DATETIME FROM student 
+
+7.FORMATE
+SELECT S_name,FORMAT(now(),'yyyy-mm-dd') as date FROM student
