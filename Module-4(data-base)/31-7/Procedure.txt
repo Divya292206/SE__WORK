@@ -1,0 +1,37 @@
+Procedure:
+
+1.update
+
+DELIMITER //
+
+	CREATE PROCEDURE updatepro(INOUT myid int)
+    
+    BEGIN
+    	UPDATE courses SET c_name = 'machine learing' WHERE id = myid;
+    END //
+
+DELIMITER ;
+
+2.select
+
+DELIMITER //
+
+	CREATE PROCEDURE selectpro(INOUT myid int)
+    
+    BEGIN
+    	SELECT * FROM courses WHERE id = myid;
+    END //
+
+DELIMITER ;
+
+3.delete
+
+DELIMITER //
+
+	CREATE PROCEDURE deletepro(INOUT myid int)
+    
+    BEGIN
+    	DELETE FROM courses WHERE id = myid;
+    END //
+
+DELIMITER ;
